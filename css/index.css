@@ -1072,7 +1072,7 @@ a {
     width: 100%;
     min-height: 35px;
      align-items: center;
-     min-width: 200px;
+     min-width: 300px;
     justify-content: space-between;
     gap: 8px;
     margin-top: auto;
@@ -1085,13 +1085,7 @@ a {
     text-decoration: none;
     transition: background 0.3s ease;
 }
-@media (min-width:1200px) {
-    .service-btn {
- 
-     min-width: 300px;
- 
-}
-}
+
 .service-btn:hover {
     background: var(--orange);
     color: #fff;
@@ -1153,7 +1147,12 @@ a {
     .service-content p {
         font-size: 12px;
     }
-
+ .service-btn {
+        min-height: 32px;
+        padding: 7px 8px;
+        font-size: 10px;
+        min-width: 150px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1226,6 +1225,7 @@ a {
         min-height: 32px;
         padding: 7px 8px;
         font-size: 10px;
+        min-width: 100px;
     }
 }
 
@@ -6897,7 +6897,6 @@ a {
 .isnad-process-heading h2 span {
     color: var(--orange);
     position: relative;
-    white-space: nowrap;
 }
 
 .isnad-process-heading h2 [data-i18n="process.titleStart"] {
@@ -7983,17 +7982,6 @@ a {
     opacity: 1;
 }
 
-@media (max-width: 991px) {
-    .isnad-language-switcher {
-        margin: 15px 0;
-        width: fit-content;
-    }
-
-    .isnad-language-menu {
-        position: absolute !important;
-    }
-}
-
 
 
 
@@ -8178,3 +8166,16 @@ a {
     direction: ltr;
     unicode-bidi: isolate;
 }
+@media (max-width: 991px) {
+    .isnad-language-switcher {
+        margin: 15px 0;
+        width: fit-content;
+    }
+
+    .isnad-language-menu {
+        position: absolute !important;
+        right: 0% !important;
+
+    }
+}
+
