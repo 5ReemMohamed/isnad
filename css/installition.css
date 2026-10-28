@@ -1,0 +1,1262 @@
+
+.isnad-installation-page {
+    --installation-navy: #092747;
+    --installation-orange: #f28c20;
+    --installation-text: #5c6b7a;
+    --installation-line: #e2e8ef;
+    font-family: "Cairo", sans-serif;
+    color: var(--installation-navy);
+    background: #fff;
+}
+
+.isnad-installation-hero {
+    padding: 25px 0 45px;
+    background: #fff;
+}
+
+.isnad-installation-breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 8px;
+    color: #657487;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.isnad-installation-breadcrumb a {
+    color: #657487;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.isnad-installation-breadcrumb a:hover {
+    color: var(--installation-orange);
+}
+
+.isnad-installation-breadcrumb i {
+    font-size: 9px;
+    color: #9da9b5;
+}
+
+.isnad-installation-page-heading {
+    text-align: center;
+    margin: 0 auto 28px;
+}
+
+.isnad-installation-page-heading h1 {
+    margin: 0;
+    color: var(--installation-navy);
+    font-size: clamp(29px, 3vw, 38px);
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.isnad-installation-page-heading > span {
+    display: block;
+    width: 62px;
+    height: 3px;
+    margin: 6px auto 0;
+    background: var(--installation-orange);
+    border-radius: 10px;
+}
+
+.isnad-installation-hero-row {
+    direction: rtl;
+}
+
+.isnad-installation-intro {
+    text-align: right;
+    padding-inline: 8px;
+}
+
+.isnad-installation-intro h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+    color: var(--installation-navy);
+    font-size: clamp(29px, 3.3vw, 46px);
+    font-weight: 900;
+    line-height: 1.45;
+}
+
+.isnad-installation-intro h2 [data-i18n="installationPage.hero.titleHighlight"] {
+    color: var(--installation-orange);
+}
+
+.isnad-installation-intro > p {
+    color: var(--installation-text);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+.isnad-installation-intro-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--installation-line);
+    margin: 20px 0;
+}
+
+.isnad-installation-intro h3 {
+    color: var(--installation-navy);
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.isnad-installation-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    min-width: 190px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    color: #fff;
+    background: var(--installation-orange);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.isnad-installation-btn:hover {
+    color: #fff;
+    background: #db7910;
+    transform: translateY(-3px);
+}
+
+.isnad-installation-btn i {
+    font-size: 14px;
+}
+
+.isnad-installation-image {
+    width: 70%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+        margin: auto;
+        transition: all .5s ease-in-out;
+
+}
+
+.isnad-installation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+            transition: all .5s ease-in-out;
+
+}
+
+.isnad-installation-image:hover img {
+    transform: scale(1.04);
+}
+
+.isnad-installation-details {
+    padding: 45px 0 35px;
+    background: linear-gradient(180deg, #f4faff 0%, #edf6fc 100%);
+}
+
+.isnad-installation-details-heading {
+    max-width: 750px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+.isnad-installation-details-heading h2 {
+    margin-bottom: 9px;
+    color: var(--installation-navy);
+    font-size: clamp(26px, 3vw, 35px);
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.isnad-installation-details-heading p {
+    margin: 0;
+    color: var(--installation-text);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.isnad-installation-details-row > div {
+    display: flex;
+}
+
+.isnad-installation-detail-card {
+    width: 100%;
+    padding: 25px 24px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #edf0f4;
+    box-shadow: 0 5px 22px rgba(9, 39, 71, 0.025);
+    text-align: right;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.isnad-installation-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(9, 39, 71, 0.07);
+}
+
+.isnad-installation-detail-card > h3 {
+    margin: 0;
+    text-align: center;
+    color: var(--installation-navy);
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.6;
+}
+
+.isnad-installation-card-line {
+    display: block;
+    width: 42px;
+    height: 3px;
+    margin: 10px auto 14px;
+    border-radius: 5px;
+    background: var(--installation-orange);
+}
+
+.isnad-installation-detail-item {
+    padding: 14px 0;
+}
+
+.isnad-installation-detail-item + .isnad-installation-detail-item {
+    border-top: 1px solid var(--installation-line);
+}
+
+.isnad-installation-detail-item h4 {
+    margin: 0 0 7px;
+    color: var(--installation-navy);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.6;
+}
+
+.isnad-installation-detail-item p {
+    margin: 0;
+    color: var(--installation-text);
+    font-size: 16px;
+    line-height: 1.85;
+    font-weight: 500;
+}
+
+.isnad-installation-cta {
+    margin-top: 18px;
+    padding: 25px 20px;
+    border-radius: 12px;
+    background: #fff;
+    text-align: center;
+}
+
+.isnad-installation-cta h3 {
+    margin: 0 0 6px;
+    color: var(--installation-navy);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.isnad-installation-cta p {
+    color: var(--installation-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 0 0 12px;
+}
+
+.lang-en .isnad-installation-hero-row {
+    direction: ltr;
+}
+
+.lang-en .isnad-installation-intro,
+.lang-en .isnad-installation-detail-card {
+    text-align: left;
+}
+
+.lang-en .isnad-installation-breadcrumb i,
+.lang-en .isnad-installation-btn i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 991.98px) {
+    .isnad-installation-hero {
+        padding: 20px 0 40px;
+    }
+
+    .isnad-installation-image {
+        height: 420px;
+    }
+
+    .isnad-installation-intro {
+        padding-inline: 0;
+    }
+
+    .isnad-installation-intro h2 {
+        font-size: 36px;
+    }
+
+    .isnad-installation-details {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .isnad-installation-page-heading h1 {
+        font-size: 28px;
+    }
+
+    .isnad-installation-intro h2 {
+        font-size: 30px;
+    }
+
+    .isnad-installation-intro > p {
+        font-size: 13px;
+    }
+
+    .isnad-installation-intro h3 {
+        font-size: 18px;
+    }
+
+    .isnad-installation-image {
+        height: 320px;
+    }
+
+    .isnad-installation-detail-card {
+        padding: 20px;
+    }
+
+    .isnad-installation-cta h3 {
+        font-size: 19px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .isnad-installation-page *,
+    .isnad-installation-page *::before,
+    .isnad-installation-page *::after {
+        transition: none !important;
+    }
+}
+
+.isnad-maintenance-page {
+    --navy: #092747;
+    --orange: #F28C20;
+    --white: #ffffff;
+    --gray: #f3f5f7;
+    --text: #26384b;
+    --red: #c92125;
+    --green: #087344;
+    --line: #e1e8ef;
+    font-family: "Cairo", sans-serif;
+    color: var(--navy);
+}
+
+.isnad-maintenance-hero {
+    padding: 25px 0 30px;
+    background: var(--white);
+}
+
+.isnad-maintenance-hero-row {
+    direction: rtl;
+}
+
+.isnad-maintenance-intro {
+    text-align: right;
+}
+
+.isnad-maintenance-intro h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: 0 0 20px;
+    color: var(--navy);
+    font-size: clamp(34px, 4vw, 57px);
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.isnad-maintenance-intro h1 span {
+    display: block;
+}
+
+.isnad-maintenance-intro h1 [data-i18n="maintenancePage.hero.titleHighlight"] {
+    color: var(--orange);
+}
+
+.isnad-maintenance-intro p {
+    color: #647487;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+    margin: 0 0 23px;
+}
+
+.isnad-maintenance-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    min-width: 230px;
+    padding: 14px 28px;
+    background: var(--orange);
+    color: var(--white);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 0 5px 14px rgba(242, 140, 32, 0.16);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.isnad-maintenance-btn:hover {
+    background: #df7912;
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
+.isnad-maintenance-image {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.isnad-maintenance-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.6s ease;
+}
+
+.isnad-maintenance-image:hover img {
+    transform: scale(1.04);
+}
+
+.isnad-maintenance-details {
+    padding: 25px 0 55px;
+    background: linear-gradient(180deg, #f5fbff 0%, #edf6fd 100%);
+}
+
+.isnad-maintenance-details-row {
+    align-items: stretch;
+}
+
+.isnad-maintenance-details-row > div {
+    display: flex;
+}
+
+.isnad-maintenance-detail-card {
+    width: 100%;
+    padding: 8px 25px 25px;
+    text-align: right;
+}
+
+.isnad-maintenance-detail-card h2 {
+    margin: 0;
+    text-align: center;
+    color: var(--navy);
+    font-size: clamp(21px, 2.2vw, 30px);
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.isnad-maintenance-card-line {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 9px auto 18px;
+    border-radius: 5px;
+    background: var(--orange);
+}
+
+.isnad-maintenance-detail-card > p {
+    color: #637486;
+    font-size: 16px;
+        font-weight: 500;
+
+    line-height: 1.85;
+    margin: 0 0 20px;
+}
+
+.isnad-maintenance-detail-group {
+    margin-bottom: 15px;
+}
+
+.isnad-maintenance-detail-group h3 {
+    color: var(--navy);
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.6;
+    margin: 0 0 7px;
+}
+
+.isnad-maintenance-detail-group p {
+    color: #637486;
+    font-size: 16px;
+        font-weight: 500;
+
+    line-height: 1.85;
+    margin: 0 0 12px;
+}
+
+.isnad-maintenance-detail-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.isnad-maintenance-detail-group li {
+    position: relative;
+    color: #637486;
+    font-size: 16px;
+        font-weight: 500;
+
+    line-height: 1.9;
+    padding-right: 18px;
+}
+
+.isnad-maintenance-detail-group li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 7px;
+    height: 7px;
+    background: var(--orange);
+    border-radius: 50%;
+}
+
+.isnad-maintenance-details-row > div:not(:last-child) {
+    border-left: 1px solid #dce6ef;
+}
+
+.isnad-maintenance-bottom-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    background: var(--white);
+}
+
+.isnad-maintenance-bottom-cta h3 {
+    margin: 0 0 8px;
+    color: var(--navy);
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.isnad-maintenance-bottom-cta p {
+    margin: 0;
+    color: #637486;
+    font-size: 16px;
+    line-height: 1.8;
+        font-weight: 500;
+
+}
+
+.lang-en .isnad-maintenance-hero-row {
+    direction: ltr;
+}
+
+.lang-en .isnad-maintenance-intro,
+.lang-en .isnad-maintenance-detail-card {
+    text-align: left;
+}
+
+.lang-en .isnad-maintenance-detail-group li {
+    padding-right: 0;
+    padding-left: 18px;
+}
+
+.lang-en .isnad-maintenance-detail-group li::before {
+    right: auto;
+    left: 0;
+}
+
+.lang-en .isnad-maintenance-btn i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 991.98px) {
+    .isnad-maintenance-hero {
+        padding: 30px 0 45px;
+    }
+
+    .isnad-maintenance-intro h1 {
+        font-size: 43px;
+    }
+
+    .isnad-maintenance-image {
+        height: 420px;
+    }
+
+    .isnad-maintenance-details-row > div:not(:last-child) {
+        border-left: 0;
+        border-bottom: 1px solid #dce6ef;
+    }
+
+    .isnad-maintenance-detail-card {
+        padding: 20px 0;
+    }
+
+    .isnad-maintenance-bottom-cta {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .isnad-maintenance-intro h1 {
+        font-size: 34px;
+    }
+
+    .isnad-maintenance-intro p {
+        font-size: 14px;
+    }
+
+    .isnad-maintenance-image {
+        height: 340px;
+    }
+
+    .isnad-maintenance-btn {
+        min-width: 190px;
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+
+    .isnad-maintenance-detail-card h2 {
+        font-size: 24px;
+    }
+
+    .isnad-maintenance-bottom-cta {
+        padding: 22px 18px;
+    }
+
+    .isnad-maintenance-bottom-cta h3 {
+        font-size: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .isnad-maintenance-page *,
+    .isnad-maintenance-page *::before,
+    .isnad-maintenance-page *::after {
+        transition: none !important;
+    }
+}
+
+.isnad-elevator-details-page {
+    --navy: #092747;
+    --orange: #F28C20;
+    --white: #ffffff;
+    --gray: #f3f5f7;
+    --text: #26384b;
+    --line: #e1e8ef;
+    font-family: "Cairo", sans-serif;
+    background: var(--white);
+}
+
+.isnad-elevator-details-section {
+    padding: 35px 0 75px;
+}
+
+.isnad-elevator-breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 35px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #738295;
+}
+
+.isnad-elevator-breadcrumb a {
+    color: #738295;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.isnad-elevator-breadcrumb a:hover,
+.isnad-elevator-breadcrumb span {
+    color: var(--orange);
+}
+
+.isnad-elevator-breadcrumb i {
+    font-size: 10px;
+}
+
+.isnad-elevator-details-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.isnad-elevator-details-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--orange);
+    background: rgba(242, 140, 32, 0.09);
+    padding: 9px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.isnad-elevator-details-heading h1 {
+    color: var(--navy);
+    font-size: clamp(30px, 3.5vw, 45px);
+    font-weight: 900;
+    margin: 0 0 12px;
+}
+
+.isnad-elevator-details-line {
+    display: block;
+    width: 65px;
+    height: 4px;
+    background: var(--orange);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.isnad-elevator-details-content {
+    text-align: start;
+}
+
+.isnad-elevator-details-content h2 {
+    color: var(--navy);
+    font-size: clamp(28px, 3vw, 39px);
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.isnad-elevator-details-content > p {
+    color: #657487;
+    font-size: 16px;
+    line-height: 2.1;
+    margin-bottom: 22px;
+}
+
+.isnad-elevator-details-divider {
+    height: 1px;
+    background: var(--line);
+    margin: 24px 0;
+}
+
+.isnad-elevator-details-content h3 {
+    color: var(--navy);
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.isnad-elevator-details-features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.isnad-elevator-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px;
+    background: #f5f9fc;
+    border: 1px solid #e8eff5;
+    border-radius: 10px;
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.isnad-elevator-feature i {
+    color: var(--orange);
+    font-size: 16px;
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+.isnad-elevator-details-btn,
+.isnad-elevator-details-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 14px 28px;
+    border-radius: 9px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.isnad-elevator-details-btn:hover,
+.isnad-elevator-details-cta-btn:hover {
+    background: #df7c13;
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
+.isnad-elevator-details-image {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 15px 45px rgba(9, 39, 71, 0.09);
+}
+
+.isnad-elevator-details-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.isnad-elevator-details-image:hover img {
+    transform: scale(1.04);
+}
+
+.isnad-elevator-details-cta {
+    padding: 40px 0;
+    background: #eff7fc;
+}
+
+.isnad-elevator-details-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 14px;
+}
+
+.isnad-elevator-details-cta h2 {
+    color: var(--navy);
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.isnad-elevator-details-cta p {
+    color: #657487;
+    font-size: 14px;
+    line-height: 1.9;
+    margin: 0;
+}
+
+.lang-en .isnad-elevator-breadcrumb i,
+.lang-en .isnad-elevator-details-btn i,
+.lang-en .isnad-elevator-details-cta-btn i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 991.98px) {
+    .isnad-elevator-details-section {
+        padding: 30px 0 55px;
+    }
+
+    .isnad-elevator-details-image {
+        height: 420px;
+    }
+
+    .isnad-elevator-details-cta-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .isnad-elevator-details-heading {
+        margin-bottom: 30px;
+    }
+
+    .isnad-elevator-details-content h2 {
+        font-size: 28px;
+    }
+
+    .isnad-elevator-details-content > p {
+        font-size: 14px;
+    }
+
+    .isnad-elevator-details-features {
+        grid-template-columns: 1fr;
+    }
+
+    .isnad-elevator-details-image {
+        height: 330px;
+    }
+
+    .isnad-elevator-details-cta h2 {
+        font-size: 20px;
+    }
+
+    .isnad-elevator-details-cta-inner {
+        padding: 25px 18px;
+    }
+}
+
+:root {
+    --navy: #092747;
+    --orange: #F28C20;
+    --white: #ffffff;
+    --gray: #f3f5f7;
+    --text: #26384b;
+    --line: #e1e8ef;
+}
+
+.isnad-passenger-header {
+    position: relative;
+    z-index: 100;
+    background: var(--white);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 4px 20px rgba(9, 39, 71, 0.04);
+}
+
+.isnad-passenger-header-inner {
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.isnad-passenger-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--navy);
+    text-decoration: none;
+}
+
+.isnad-passenger-brand-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    background: var(--navy);
+    color: var(--orange);
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.isnad-passenger-brand > span:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.isnad-passenger-brand strong {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.isnad-passenger-brand small {
+    color: #7c8b9a;
+    font-size: 11px;
+}
+
+.isnad-passenger-home-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.isnad-passenger-home-link:hover {
+    color: var(--orange);
+}
+
+.isnad-passenger-section {
+    padding: 30px 0 95px;
+    background: var(--white);
+    overflow: hidden;
+}
+
+.isnad-passenger-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-bottom: 20px;
+}
+
+.isnad-passenger-breadcrumb a,
+.isnad-passenger-breadcrumb span {
+    color: #647487;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.isnad-passenger-breadcrumb a:hover {
+    color: var(--orange);
+}
+
+.isnad-passenger-breadcrumb i {
+    color: var(--orange);
+    font-size: 9px;
+}
+
+.isnad-passenger-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.isnad-passenger-heading h1 {
+    margin: 0 0 15px;
+    color: var(--orange);
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.isnad-passenger-heading-line {
+    display: block;
+    width: 70px;
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: var(--orange);
+}
+
+.isnad-passenger-image {
+    position: relative;
+    width: 100%;
+    height: 605px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--gray);
+}
+
+.isnad-passenger-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    transition: transform 0.7s ease;
+}
+
+.isnad-passenger-image:hover img {
+    transform: scale(1.04);
+}
+
+.isnad-passenger-image-accent {
+    position: absolute;
+    inset-inline-start: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--orange),
+        transparent
+    );
+}
+
+.isnad-passenger-content {
+    padding-inline-start: 8px;
+}
+
+.isnad-passenger-eyebrow {
+    display: inline-block;
+    margin-bottom: 13px;
+    color: var(--orange);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.isnad-passenger-content h2 {
+    margin: 0 0 19px;
+    color: var(--navy);
+    font-size: clamp(29px, 3vw, 40px);
+    font-weight: 900;
+    line-height: 1.45;
+}
+
+.isnad-passenger-intro {
+    margin: 0 0 25px;
+    color: #647487;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.isnad-passenger-feature {
+    margin-bottom: 22px;
+}
+
+.isnad-passenger-feature h3 {
+    margin: 0 0 10px;
+    color: var(--navy);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.isnad-passenger-feature p {
+    margin: 0;
+    color: #647487;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.isnad-passenger-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin: 27px 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.isnad-passenger-benefits li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.isnad-passenger-benefits i {
+    flex-shrink: 0;
+    color: var(--orange);
+    font-size: 20px;
+}
+
+.isnad-passenger-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    min-width: 220px;
+    padding: 14px 28px;
+    border-radius: 9px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 7px 20px rgba(242, 140, 32, 0.2);
+    transition: all 0.3s ease;
+}
+
+.isnad-passenger-cta:hover {
+    background: #dc7a16;
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
+.lang-en .isnad-passenger-cta i,
+.lang-en .isnad-passenger-breadcrumb i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 991.98px) {
+    .isnad-passenger-section {
+        padding: 25px 0 65px;
+    }
+
+    .isnad-passenger-image {
+        height: 480px;
+    }
+
+    .isnad-passenger-content {
+        padding-inline-start: 0;
+    }
+
+    .isnad-passenger-heading {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .isnad-passenger-header-inner {
+        min-height: 65px;
+    }
+
+    .isnad-passenger-brand-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .isnad-passenger-brand strong {
+        font-size: 16px;
+    }
+
+    .isnad-passenger-brand small {
+        font-size: 9px;
+    }
+
+    .isnad-passenger-section {
+        padding: 22px 0 50px;
+    }
+
+    .isnad-passenger-breadcrumb {
+        gap: 8px;
+    }
+
+    .isnad-passenger-breadcrumb a,
+    .isnad-passenger-breadcrumb span {
+        font-size: 11px;
+    }
+
+    .isnad-passenger-heading h1 {
+        font-size: 32px;
+    }
+
+    .isnad-passenger-image {
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .isnad-passenger-eyebrow {
+        font-size: 14px;
+    }
+
+    .isnad-passenger-content h2 {
+        font-size: 27px;
+    }
+
+    .isnad-passenger-intro,
+    .isnad-passenger-feature p {
+        font-size: 14px;
+    }
+
+    .isnad-passenger-feature h3 {
+        font-size: 18px;
+    }
+
+    .isnad-passenger-benefits li {
+        font-size: 13px;
+    }
+
+    .isnad-passenger-cta {
+        width: 100%;
+    }
+}
