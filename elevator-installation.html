@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://example.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/installition.css" />
+  </head>
+
+  <body>
+
+
+
+<div class="topbar">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <span>
+            <i class="fa-solid fa-location-dot"></i>
+            <span data-i18n="topbar.location"> جدة ومكة </span>،
+            <span data-i18n="topbar.country">المملكة العربية السعودية</span>
+        </span>
+
+        <a href="https://wa.me/966531180385" class="top-contact" data-track="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span dir="ltr">0531180385</span>
+        </a>
+    </div>
+</div>
+
+
+
+   <nav class="navbar navbar-expand-lg main-nav">
+    <div class="container">
+
+        <a class="navbar-brand brand-logo" href="index.html#home">
+           <img src="images/logo.png" alt="company logo" height="100">
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+            aria-controls="mainMenu"
+            aria-expanded="false"
+            aria-label="فتح القائمة"
+            data-i18n-aria-label="nav.openMenu">
+
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainMenu">
+
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" data-i18n="nav.home">
+                        الرئيسية
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about" data-i18n="nav.about">
+                        من نحن
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown services-dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="index.html#services"
+                        id="servicesDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-i18n="nav.services">
+
+                        خدماتنا
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+
+                        <li>
+                            <a class="dropdown-item" href="elevator-maintenance.html">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                                <span data-i18n="nav.maintenance">صيانة المصاعد</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="isnad-modernization.html">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <span data-i18n="nav.modernization">تحديث المصاعد</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="spare-parts.html">
+                                <i class="fa-solid fa-gears"></i>
+                                <span data-i18n="nav.spareParts">قطع الغيار</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="maintenance-contracts.html">
+                                <i class="fa-solid fa-file-contract"></i>
+                                <span data-i18n="nav.contracts">عقود الصيانة</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#installation">
+                                <i class="fa-solid fa-elevator"></i>
+                                <span data-i18n="nav.fuji">تركيب مصاعد</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+   <li class="nav-item">
+        <a class="nav-link" href="elevator-installation.html" data-i18n="nav.installation">
+            تركيب مصاعد
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="elevator-maintenance.html" data-i18n="nav.elevatorMaintenance">
+            صيانة مصاعد
+        </a>
+    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#brands" data-i18n="nav.brands">
+                        الماركات
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects" data-i18n="nav.projects">
+                        مشاريعنا
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact" data-i18n="nav.contact">
+                        تواصل معنا
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="isnad-language-switcher dropdown mx-3">
+                <button
+                    class="isnad-language-btn dropdown-toggle"
+                    type="button"
+                    id="isnadLanguageDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    aria-label="تغيير اللغة">
+
+                    <img
+                        class="isnad-current-flag"
+                        src="https://flagcdn.com/w80/sa.png"
+                        alt="العربية">
+
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+
+                <ul
+                    class="dropdown-menu isnad-language-menu"
+                    aria-labelledby="isnadLanguageDropdown">
+
+                    <li>
+                        <button
+                            class="dropdown-item isnad-language-option active"
+                            type="button"
+                            data-lang="ar"
+                            aria-label="العربية"
+                            title="العربية">
+
+                            <img
+                                src="https://flagcdn.com/w80/sa.png"
+                                alt="السعودية">
+
+                            <i class="fas fa-check"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button
+                            class="dropdown-item isnad-language-option"
+                            type="button"
+                            data-lang="en"
+                            aria-label="English"
+                            title="English">
+
+                            <img
+                                src="https://flagcdn.com/w80/us.png"
+                                alt="United States">
+
+                            <i class="fas fa-check"></i>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+
+            <a href="index.html#contact" class="btn btn-orange nav-cta">
+                <span data-i18n="nav.quote">اطلب عرض سعر</span>
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+        </div>
+    </div>
+</nav>
+ 
+
+
+
+
+<main class="isnad-installation-page" id="installation-page">
+
+    <section class="isnad-installation-hero">
+        <div class="container">
+
+            <nav class="isnad-installation-breadcrumb" aria-label="Breadcrumb">
+                <a href="index.html#home" data-i18n="installationPage.breadcrumb.home">الرئيسية</a>
+                <i class="fa-solid fa-chevron-left"></i>
+                <a href="index.html#services" data-i18n="installationPage.breadcrumb.services">خدماتنا</a>
+                <i class="fa-solid fa-chevron-left"></i>
+                <span data-i18n="installationPage.breadcrumb.current">تركيب المصاعد</span>
+            </nav>
+
+            <div class="isnad-installation-page-heading">
+                <h1 data-i18n="installationPage.pageTitle">تركيب المصاعد</h1>
+                <span></span>
+            </div>
+
+            <div class="row align-items-center g-4 isnad-installation-hero-row">
+
+                <div class="col-lg-5">
+                    <div class="isnad-installation-intro">
+                        <h2>
+                            <span data-i18n="installationPage.hero.titleStart">تركيب مدروس</span>
+                            <span data-i18n="installationPage.hero.titleHighlight">يبدأ من احتياج المبنى</span>
+                        </h2>
+
+                        <p data-i18n="installationPage.hero.description">
+                            اختيار المصعد المناسب يبدأ بفهم طبيعة المبنى وحركة
+                            المستخدمين والمساحة المتاحة. في منظومة الإسناد ندرس
+                            متطلبات الموقع ونحدد مواصفات المصعد، ثم ننفذ أعمال
+                            التوريد والتركيب والضبط والاختبار وفق نطاق العمل المعتمد.
+                        </p>
+
+                        <div class="isnad-installation-intro-divider"></div>
+
+                        <h3 data-i18n="installationPage.hero.studyTitle">
+                            ما الذي ندرسه قبل التركيب؟
+                        </h3>
+
+                        <p data-i18n="installationPage.hero.studyDescription">
+                            نراجع أبعاد البئر والحفرة والارتفاع العلوي، وعدد
+                            الوقفات والحمولة المطلوبة، ونوع الأبواب والتشطيبات،
+                            ونوضح متطلبات الأعمال المدنية والتغذية الكهربائية
+                            قبل بدء التنفيذ، لتكون المسؤوليات والمواصفات واضحة
+                            منذ البداية.
+                        </p>
+
+                        <a href="https://wa.me/966531180385?text=مرحباً،%20أرغب%20في%20الاستفسار%20عن%20خدمة%20تركيب%20المصاعد"
+   target="_blank"
+   rel="noopener noreferrer" class="isnad-installation-btn">
+                            <span data-i18n="installationPage.hero.button">اطلب عرض سعر</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="isnad-installation-image">
+                        <img
+                            src="images/install.jpg"
+                            alt="فني متخصص يفحص تركيب أحد المصاعد"
+                            data-i18n-alt="installationPage.hero.imageAlt">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="isnad-installation-details">
+        <div class="container">
+
+            <div class="isnad-installation-details-heading">
+                <h2 data-i18n="installationPage.details.title">
+                    تفاصيل خدمة التركيب
+                </h2>
+
+                <p data-i18n="installationPage.details.description">
+                    نقدم خدمة تركيب المصاعد وفق دراسة دقيقة للموقع
+                    وتنفيذ منظم يراعي متطلبات المبنى ويحقق سلامة التشغيل وجودة الأداء.
+                </p>
+            </div>
+
+            <div class="row g-3 g-lg-4 isnad-installation-details-row">
+
+                <div class="col-lg-4">
+                    <article class="isnad-installation-detail-card">
+                        <h3 data-i18n="installationPage.details.types.title">
+                            اختيار المصعد المناسب
+                        </h3>
+
+                        <span class="isnad-installation-card-line"></span>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.types.passengerTitle">
+                                مصاعد الركاب والمنازل
+                            </h4>
+
+                            <p data-i18n="installationPage.details.types.passengerDescription">
+                                نحدد الحمولة والسرعة وأبعاد الكبينة بما يتناسب
+                                مع استخدام المبنى وعدد الأدوار والمساحة المتاحة.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.types.freightTitle">
+                                مصاعد البضائع والطعام
+                            </h4>
+
+                            <p data-i18n="installationPage.details.types.freightDescription">
+                                نختار الأبعاد والحمولات وطريقة التحميل
+                                وفق طبيعة المواد المنقولة ومتطلبات التشغيل.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.types.hospitalTitle">
+                                مصاعد المستشفيات
+                            </h4>
+
+                            <p data-i18n="installationPage.details.types.hospitalDescription">
+                                ندرس مساحة الكبينة وفتحة الباب لاستيعاب
+                                الأسرة الطبية وتسهيل حركة المرضى ومرافقيهم.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4">
+                    <article class="isnad-installation-detail-card">
+                        <h3 data-i18n="installationPage.details.process.title">
+                            من المعاينة إلى التسليم
+                        </h3>
+
+                        <span class="isnad-installation-card-line"></span>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.process.step1Title">
+                                1. المعاينة واعتماد المواصفات
+                            </h4>
+
+                            <p data-i18n="installationPage.details.process.step1Description">
+                                دراسة الموقع وتحديد النوع والحمولة والتشطيبات
+                                ونطاق الأعمال والمدة التقديرية عليها.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.process.step2Title">
+                                2. التوريد والتركيب
+                            </h4>
+
+                            <p data-i18n="installationPage.details.process.step2Description">
+                                تركيب السكك والأبواب والكبينة ومجموعة الحركة،
+                                وتنفيذ التوصيلات وفق التصميم المعتمد.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.process.step3Title">
+                                3. الضبط والاختبار
+                            </h4>
+
+                            <p data-i18n="installationPage.details.process.step3Description">
+                                ضبط الوقوف وحركة الأبواب وفحص دوائر الأمان
+                                واختبار التشغيل قبل التسليم.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.process.step4Title">
+                                4. التسليم والتعريف بالاستخدام
+                            </h4>
+
+                            <p data-i18n="installationPage.details.process.step4Description">
+                                تسليم المصعد بعد استكمال الفحوصات،
+                                وشرح الاستخدام الصحيح ومتطلبات العناية الدورية.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4">
+                    <article class="isnad-installation-detail-card">
+                        <h3 data-i18n="installationPage.details.execution.title">
+                            نطاق واضح وتنفيذ منظم
+                        </h3>
+
+                        <span class="isnad-installation-card-line"></span>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.execution.preparationTitle">
+                                تجهيز الموقع
+                            </h4>
+
+                            <p data-i18n="installationPage.details.execution.preparationDescription">
+                                تحديد متطلبات البئر والحفرة والمداخل والتغذية
+                                الكهربائية، والتنسيق بشأن جاهزيتها قبل التركيب.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.execution.followupTitle">
+                                متابعة التنفيذ
+                            </h4>
+
+                            <p data-i18n="installationPage.details.execution.followupDescription">
+                                تنسيق مراحل العمل مع العميل وتوضيح
+                                أي متطلبات قد تؤثر على البرنامج أو نطاق الأعمال.
+                            </p>
+                        </div>
+
+                        <div class="isnad-installation-detail-item">
+                            <h4 data-i18n="installationPage.details.execution.afterTitle">
+                                ما بعد التسليم
+                            </h4>
+
+                            <p data-i18n="installationPage.details.execution.afterDescription">
+                                توضيح شروط الضمان المشمولة بالعرض،
+                                وخيارات الصيانة الدورية وآلية بلاغات الأعطال.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <div class="isnad-installation-cta">
+                <h3 data-i18n="installationPage.cta.title">
+                    ابدأ بتحديد احتياج مشروعك
+                </h3>
+
+                <p data-i18n="installationPage.cta.description">
+                    شاركنا موقع المبنى وعدد أدواره ونوع الاستخدام المطلوب،
+                    لنساعدك في اختيار الحل المناسب.
+                </p>
+
+                <a href="https://wa.me/966531180385?text=مرحباً،%20أرغب%20في%20الاستفسار%20عن%20خدمة%20تركيب%20المصاعد"
+   target="_blank"
+   rel="noopener noreferrer" class="isnad-installation-btn">
+                    <span data-i18n="installationPage.cta.button">تواصل معنا</span>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+<footer class="isnad-footer">
+    <div class="isnad-footer-main">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="isnad-footer-brand">
+                        <a href="index.html#home" class="isnad-footer-logo">
+                           <a class="navbar-brand brand-logo" href="index.html#home">
+           <img src="images/logo.png" alt="company logo" height="100">
+        </a>
+
+                        </a>
+
+                        <p class="isnad-footer-about" data-i18n="footer.brand.description">
+                            نقدم حلولًا متكاملة في تركيب المصاعد وصيانتها وتحديثها،
+                            مع توفير قطع الغيار وعقود الصيانة لتلبية احتياجات
+                            عملائنا في جدة ومكة المكرمة.
+                        </p>
+
+                        <div class="isnad-footer-social">
+                            <a href="https://wa.me/966531180385"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="واتساب"
+                                data-i18n-aria-label="footer.social.whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+
+                            <a href="tel:+966531180385"
+                                aria-label="اتصل بنا"
+                                data-i18n-aria-label="footer.social.phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+
+                            <a href="mailto:info@isnad.sa"
+                                aria-label="البريد الإلكتروني"
+                                data-i18n-aria-label="footer.social.email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="isnad-footer-column">
+                        <h3 data-i18n="footer.quickLinks.title">روابط سريعة</h3>
+
+                        <ul class="isnad-footer-links">
+                            <li>
+                                <a href="index.html" data-i18n="footer.quickLinks.home">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="index.html#about" data-i18n="footer.quickLinks.about">من نحن</a>
+                            </li>
+                            <li>
+                                <a href="index.html#services" data-i18n="footer.quickLinks.services">خدماتنا</a>
+                            </li>
+                            <li>
+                                <a href="index.html#brands" data-i18n="footer.quickLinks.brands">الماركات العالمية</a>
+                            </li>
+                            <li>
+                                <a href="index.html#projects" data-i18n="footer.quickLinks.projects">مشاريعنا</a>
+                            </li>
+                            <li>
+                                <a href="index.html#contact" data-i18n="footer.quickLinks.contact">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="isnad-footer-column">
+                        <h3 data-i18n="footer.services.title">خدماتنا</h3>
+
+                        <ul class="isnad-footer-links">
+                            <li>
+                                <a href="elevator-maintenance.html">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span data-i18n="footer.services.maintenance">
+                                        صيانة وإصلاح المصاعد
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="isnad-modernization.html">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span data-i18n="footer.services.modernization">
+                                        تحديث المصاعد
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="spare-parts.html">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span data-i18n="footer.services.spareParts">
+                                        قطع الغيار
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="maintenance-contracts.html">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span data-i18n="footer.services.contracts">
+                                        عقود الصيانة
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="installation.html">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span data-i18n="footer.services.fuji">
+                                        تركيب مصاعد  
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="isnad-footer-column isnad-footer-contact">
+                        <h3 data-i18n="footer.contact.title">تواصل معنا</h3>
+
+                        <a href="tel:+966531180385" class="isnad-footer-contact-item">
+                            <span class="isnad-footer-contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <span>
+                                <small data-i18n="footer.contact.call">اتصل بنا</small>
+                                <strong dir="ltr">+966 53 118 0385</strong>
+                            </span>
+                        </a>
+
+                        <a href="tel:+966531180385" class="isnad-footer-contact-item">
+                            <span class="isnad-footer-contact-icon">
+                                <i class="fa-solid fa-headset"></i>
+                            </span>
+                            <span>
+                                <small data-i18n="footer.contact.support">خدمة العملاء</small>
+                                <strong dir="ltr">+966531180385</strong>
+                            </span>
+                        </a>
+
+                        <a href="mailto:info@isnad.sa" class="isnad-footer-contact-item">
+                            <span class="isnad-footer-contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <span>
+                                <small data-i18n="footer.contact.email">البريد الإلكتروني</small>
+                                <strong>info@isnad.sa</strong>
+                            </span>
+                        </a>
+
+                        <div class="isnad-footer-contact-item">
+                            <span class="isnad-footer-contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <span>
+                                <small data-i18n="footer.contact.location">موقعنا</small>
+                                <strong data-i18n="footer.contact.address">
+                                    حي مشرفة، شارع مكرونة، جدة 23336
+                                </strong>
+                            </span>
+                        </div>
+
+                        <a href="https://wa.me/966531180385"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="isnad-footer-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span data-i18n="footer.contact.whatsapp">
+                                تواصل معنا عبر واتساب
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="isnad-footer-bottom">
+        <div class="container">
+            <div class="isnad-footer-bottom-inner">
+                <p>
+                    <span data-i18n="footer.bottom.copyright">جميع الحقوق محفوظة ©</span>
+                    <span id="isnadFooterYear"></span>
+                    <span data-i18n="footer.bottom.brand">منظومة الإسناد</span>
+                </p>
+
+                <a href="index.html#home"
+                    class="isnad-footer-top"
+                    aria-label="العودة للأعلى"
+                    data-i18n-aria-label="footer.bottom.backToTop">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+
+                <p class="isnad-footer-made">
+                    <span data-i18n="footer.bottom.tagline">
+                        الجودة والاعتمادية في كل رحلة
+                    </span>
+                    <i class="fa-solid fa-heart"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="floating-contact">
+    <a class="floating-whatsapp"
+        href="https://wa.me/966531180385"
+        aria-label="تواصل عبر واتساب"
+        data-i18n-aria-label="footer.floating.whatsapp"
+        data-track="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a class="floating-phone"
+        href="tel:+966531180385"
+        aria-label="اتصل بنا"
+        data-i18n-aria-label="footer.floating.phone"
+        data-track="phone">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/translation.js"></script>
+  </body>
+</html>
